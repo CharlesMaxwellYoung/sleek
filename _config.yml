@@ -22,6 +22,7 @@ navigation: # Navigation links
   - {name: 'Home', link: '/'}
   - {name: 'About', link: '/about'}
   - {name: 'Contact', link: '/contact'}
+  - {name: 'Categories', link: '/categories'}
 
 tagline: >
   生活，不要重构
