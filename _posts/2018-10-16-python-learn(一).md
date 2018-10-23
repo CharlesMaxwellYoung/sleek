@@ -2,7 +2,7 @@
 layout: post
 title: "python 学习(一)"
 featured-img: 5bcea90399331
-categories: [技术 ,python,]
+categories: [技术 ,python]
 ---
 
 # 基础知识
