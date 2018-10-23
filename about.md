@@ -4,10 +4,34 @@ title: About
 permalink: /about/
 ---
 
-Sleek is a modern Jekyll theme focused on speed performance & SEO best practices. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/) or simply read the guide on how to [get started](/getting-started)
+# 关于我
 
-You can find the source code for the Jekyll new theme at:
-[sleek](https://github.com/janczizikow/sleek)
+![a](https://avatars1.githubusercontent.com/u/15714962?s=460&v=4)
 
-You can find the source code for Jekyll at
-[jekyll](https://github.com/jekyll/jekyll)
+我叫杨阳，你可以叫我charles，这是我的博客。欢迎大家
+
+## 喜欢的事
+
+- 电影，漫威粉
+- 漫画
+- 瞎折腾
+
+## 为什么要写博客
+
+只是希望在以后生活，能够找到一些，自己存在的印记吧。
+
+### 目前技术栈
+
+- 服务端
+
+  ```bash
+  java(ssm,spring-boot)
+  node
+  Nginx、Mysql
+  ```
+
+- 客户端
+
+  ```bash
+  Javascript（vue/ng2等）、html、css（貌似三个大家都会）
+  ```
