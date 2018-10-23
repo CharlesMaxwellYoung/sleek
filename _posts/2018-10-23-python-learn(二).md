@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "python 学习(一)"
+title: "python 学习(二)"
 featured-img: 1_ueWmI48uuShON-hX7LwI0w1 
 summary: 条件，循环和其他语句 
 categories: [技术 ,python]
