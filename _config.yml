@@ -19,10 +19,10 @@ social:
 
 # THEME SETTINGS
 navigation: # Navigation links
-  - {name: 'Home', link: '/'}
-  - {name: 'About', link: '/about'}
-  - {name: 'Contact', link: '/contact'}
-  - {name: 'Categories', link: '/categories'}
+  - {name: '首页', link: '/'}
+  - {name: '关于', link: '/about'}
+  - {name: '联系', link: '/contact'}
+  - {name: '标签', link: '/categories'}
 
 tagline: >
   生活，不要重构
