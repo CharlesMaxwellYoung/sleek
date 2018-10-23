@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Intellij-IDEA配置JDK1.8"
-featured-img: 5bcead8c78275
+featured-img: 102636_T1OX_27201661
 categories: [工具]
 ---
 

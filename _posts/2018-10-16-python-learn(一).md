@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "python 学习(一)"
-featured-img: 5bcea90399331
+featured-img: 1_ueWmI48uuShON-hX7LwI0w1
 categories: [技术 ,python]
 ---
 
