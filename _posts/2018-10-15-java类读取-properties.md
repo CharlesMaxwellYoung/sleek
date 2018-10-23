@@ -2,6 +2,7 @@
 layout: post
 title: "java类读取properties"
 featured-img: java-logo
+sunmary:Java读取properties文件数据
 categories: [技术,java]
 ---
 
