@@ -2,6 +2,8 @@
 layout: post
 title: "Intellij-IDEA配置JDK1.8"
 featured-img: 102636_T1OX_27201661
+summary: idea配置支持java8 永久支持lambda属性
+keyword: java8 lambda idea
 categories: [工具]
 ---
 
