@@ -3,7 +3,7 @@ layout: post
 title: "java类读取properties"
 featured-img: java-logo
 summary: Java读取properties文件数据
-categories: [技术,java]
+categories: [技术,JAVA]
 ---
 
 # 前言

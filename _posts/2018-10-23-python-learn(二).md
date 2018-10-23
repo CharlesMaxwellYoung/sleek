@@ -3,7 +3,7 @@ layout: post
 title: "python 学习(二)"
 featured-img: 1_ueWmI48uuShON-hX7LwI0w1 
 summary: 条件，循环和其他语句 
-categories: [技术 ,python]
+categories: [技术 ,PYTHON]
 ---
 
 # 基础知识
@@ -12,7 +12,7 @@ categories: [技术 ,python]
 
 > 表示打印
 
-- **print **可以传入多个参数，那么相对应的首尾输出。(可以理解chrome 浏览中`console `函数)例如:
+- **print**可以传入多个参数，那么相对应的首尾输出。(可以理解chrome 浏览中`console `函数)例如:
 
   ```python
   print(1, 3, 4, 5, 6, 7)
