@@ -205,6 +205,56 @@ this is escaped the inner block
 - `or`和`and`用来表示多个逻辑的组合在一个。
 
 ### 断言
+- 在python 语言中，要使用 assert 语句。
+- assert 后面指定断言的条件表达式，如果为False，就会抛出异常
+  ```python
+  value = 20
+  assert value < 10 or value > 30
+  >>>Traceback (most recent call last):
+    File "E:/webStromWorkSpace/python-learn/basic/test.py", line 48, in <module>
+      assert value < 10 or value > 30
+  AssertionError
+  ```
 
-contine......
+### 循环
+
+#### `while`循环
+
+```python
+x = 1
+while x <= 10:
+    print(x)
+    x += 1
+>>>1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+```
+
+
+
+#### `for`循环
+
+```python
+y = [1, 3, 4, 5, 6, 7, 8]
+for z in y:
+    print(z)
+>>> 1
+3
+4
+5
+6
+7
+8
+```
+
+
+
+
 
