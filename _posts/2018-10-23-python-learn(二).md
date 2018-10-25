@@ -254,7 +254,89 @@ for z in y:
 8
 ```
 
+#### 跳出循环
 
+有时候，需要从循环体中跳出循环，这时我们就要用到**break**语句。例如：
 
+```python
+x = 0
+while x < 100:
+    if (x == 5):
+        break
+    print(x)
+    x += 1
+>>>
+0
+1
+2
+3
+4
+```
+
+与break对应的，还有**continue**，表示结束本地循环。
+
+> 不同点在于，continue会结束循环，后面循环还是继续的。
+
+**还有运用while语句时，要注意死循环的风险**
+
+#### 在循环中使用else
+
+我们来观察一下代码：
+
+```python
+import random
+
+x = 0
+flag = False
+while x < 10:
+    x += 1
+    if x == random.randint(1, 20):
+        flag = True
+        print(x)
+        break
+if not flag:
+    print("没有中断while循环")
+```
+
+> 从1-10，判断x是否等于 1-20 的随机数，如果相等，打印数字，否则**输出没有中断while循环**，
+>
+> 我们可以用else来处理
+
+```python
+import random
+
+x = 0
+flag = False
+while x < 10:
+    x += 1
+    if x == random.randint(1, 20):
+        flag = True
+        print(x)
+        break
+else: # while 循环的 else子语句
+    print("没有终端while循环")
+    
+
+numbers = [1, 2, 3, 4, 5, 6]
+for a in numbers:
+    if a == random.randint(1, 20):
+        print(a)
+        break
+else:
+    print("退出循环")
+
+```
+
+#### 使用exec和eval执行求职字符串
+
+`eval`类似JS的eval函数，可以将字符串当作JavaScript代码进行执行。python也有类似的功能，就是使用exec函数。
+
+```python
+exec("x=1")
+exec("print(x)")
+>>>1
+```
+
+> 从代码中可以看到，执行两条语句，而且能够输出1，说明exec在python还能共享上下文，也就说通过python代码，与python解释器执行的方式是完全一样的。
 
 
