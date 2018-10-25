@@ -2,7 +2,7 @@
 layout: post
 title: "python 学习(二)"
 featured-img: 1_ueWmI48uuShON-hX7LwI0w1 
-summary: 条件，循环和其他语句 
+summary: 主要介绍流程控制，（条件语句和循环语句）
 categories: [技术 ,PYTHON]
 ---
 
@@ -329,7 +329,7 @@ else:
 
 #### 使用exec和eval执行求职字符串
 
-`eval`类似JS的eval函数，可以将字符串当作JavaScript代码进行执行。python也有类似的功能，就是使用exec函数。
+1.`exec`类似JS的eval函数，可以将字符串当作JavaScript代码进行执行。python也有类似的功能，就是使用exec函数。
 
 ```python
 exec("x=1")
@@ -337,6 +337,18 @@ exec("print(x)")
 >>>1
 ```
 
-> 从代码中可以看到，执行两条语句，而且能够输出1，说明exec在python还能共享上下文，也就说通过python代码，与python解释器执行的方式是完全一样的。
+> - 从代码中可以看到，执行两条语句，而且能够输出1，说明exec在python还能共享上下文，也就说通过python代码，与python解释器执行的方式是完全一样的。
+> - 还有一个注意点，尽可能不要用户全局作用下执行Python代码，否则可能会出现命名冲突现象。
+
+2.`eval`和`exec`类似,不同点在于，**eval**用于执行表达式，并且返回结果；而**exec**并不会返回任何值。
+
+```python
+scope = {'x': 20}
+arges = {'y': 40}
+print(eval('x+y', scope, arges))
+>>>60
+```
+
+
 
 
