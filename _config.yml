@@ -35,11 +35,11 @@ disqus:
 
 gitalk:
   enable: true
-  githubID: charlesmaxwellyoung  # 例：asdfv1929   
+  owner: charlesmaxwellyoung  # 例：asdfv1929   
   repo: charlesmaxwellyoung.github.io   # 例：asdfv1929.github.io
-  ClientID: dc2433393733dddf33d8
-  ClientSecret: 9bc70ffd8c9b3c32a1c76e97c4a4267a3e0d73d3
-  adminUser: charlesmaxwellyoung #指定可初始化评论账户
+  clientID: dc2433393733dddf33d8
+  clientSecret: 9bc70ffd8c9b3c32a1c76e97c4a4267a3e0d73d3
+  admin: charlesmaxwellyoung #指定可初始化评论账户
   labels: 'gitalk' #GitHub issues的标签
   distractionFreeMode: true
 
