@@ -31,8 +31,8 @@
         repo: '{{site.gitalk.repo}}',
         owner: '{{site.gitalk.owner}}',
         admin: ['{{site.gitalk.admin}}'],
-        distractionFreeMode: true,
-        id: md5(location.pathname)
+        distractionFreeMode: false,
+        id: decodeURIComponent(location.pathname)
                     });
     gitalk.render('gitalk-container');
 </script>
