@@ -34,7 +34,7 @@ disqus:
   shortname: https-vineo-cn-1 # to enable comments replace with your_disqus_shortname
 
 gitalk:
-  enable: false
+  enable: true
   githubID: charlesmaxwellyoung  # 例：asdfv1929   
   repo: charlesmaxwellyoung.github.io   # 例：asdfv1929.github.io
   ClientID: dc2433393733dddf33d8
