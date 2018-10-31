@@ -3,6 +3,7 @@ title: Vineo # your site title
 author: 落长河 # You :P
 description: > # Meta description of Homepage
   落长河，第一波90后，前端开发者/伪极客/热爱技术&设计。很高兴能在这里与你分享我对技术和生活的思考。
+keyword: 落长河,落长河的博客,前端,web,python,java
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://vineo.cn" # the base hostname & protocol for your site, e.g. http://example.com
 
