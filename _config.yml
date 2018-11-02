@@ -1,15 +1,14 @@
 # SITE CONFIGURATION
 title: Vineo # your site title
-author: 落长河 # You :P
-description: > # Meta description of Homepage
-  落长河，第一波90后，前端开发者/伪极客/热爱技术&设计。很高兴能在这里与你分享我对技术和生活的思考。
-keyword: 落长河,落长河的博客,前端,web,python,java
+author: 几度秋 # You :P
+description: 几度秋，第一波90后，前端开发者/伪极客/热爱技术&设计。很高兴能在这里与你分享我对技术和生活的思考。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://vineo.cn" # the base hostname & protocol for your site, e.g. http://example.com
+lang: zh_CN
 
 # SEO PLUGIN
 social:
-  name: 落长河
+  name: 几度秋
   links:
     - https://github.com/charlesmaxwellyoung
 
@@ -20,8 +19,7 @@ navigation: # Navigation links
   - {name: '联系', link: '/contact'}
   - {name: '标签', link: '/categories'}
 
-tagline: >
-  生活不止眼前的苟且，还有诗和远方的田野！
+tagline: 生活不止眼前的苟且，还有诗和远方的田野！
 
 hero_img: posts/sleek_lg.jpg # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
 

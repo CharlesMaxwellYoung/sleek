@@ -44,7 +44,7 @@ categories: [工具]
     };
     (function () {
         var d = document, s = d.createElement('script');
-        s.src = 'https://{{ 你自己的shortname }}.disqus.com/embed.js';
+        s.src = 'https://{{ page.url }}.disqus.com/embed.js";
         s.setAttribute('data-timestamp', +new Date());
         (d.head || d.body).appendChild(s);
      })();
